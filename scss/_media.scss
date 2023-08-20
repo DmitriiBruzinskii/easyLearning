@@ -1,0 +1,110 @@
+@media (max-width:1000px) {
+    .container {
+        width: 960px;
+        margin: 0 20px;
+        height: 100%;
+
+        .header_nav_logo {
+            margin-right: 71px;
+            margin-top: 64px;
+        }
+
+        .header_nav_list ul li:not(:last-child) {
+            margin-right: 44px;
+        }
+    }
+
+    .hero-section .spot {
+        left: -226px;
+    }
+
+    .header-body_desc {
+        width: 793px;
+        height: 201px;
+        font-size: 53px;
+        margin-top: 192px;
+
+        br {
+            display: initial;
+        }
+    }
+
+    .header {
+        .lamp {
+            background-image: url('../img/adaptive/adaptive_1000px/lamp.svg');
+            width: 139px;
+            height: 463px;
+            left: 812px;
+            top: 0;
+
+        }
+
+        .clock {
+            display: none;
+        }
+
+        .header-body {
+            .subtitle {
+                width: 487px;
+                height: 89px;
+                margin-top: 31px;
+
+                .br-first {
+                    display: none;
+                }
+
+                .br-secnd {
+                    display: initial;
+                }
+            }
+
+            .women {
+                background-image: url('../img/adaptive/adaptive_1000px/women.svg');
+                width: 350px;
+                height: 232px;
+                left: 629px;
+            }
+        }
+    }
+
+    .awards {
+        .container {
+
+            .title {
+                margin-top: 115px;
+            }
+        }
+
+    }
+
+    .awards-wrapper {
+
+        .awards-inner {
+            .awards-list {
+                margin-top: 91px;
+            }
+
+            .awards-img {
+                margin-top: 56px;
+
+                &_1 {
+                    background-image: url('../img/adaptive/adaptive_1000px/california.svg');
+                    width: 229px;
+                    height: 254px;
+                    pointer-events: none;
+                    
+                }
+
+                &_2 {
+                    background-image: url('../img/adaptive/adaptive_1000px/fresno.svg');
+                    width: 254px;
+                    height: 254px;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+
+
+
+}
