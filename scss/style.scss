@@ -1,9 +1,7 @@
 @import '_reset';
 
-
 .container {
-    width: 1360px;
-    margin: 0 120px;
+    padding: 0 120px;
     height: 100%;
 }
 
@@ -24,6 +22,7 @@
 .header-body_desc {
     width: 1018px;
     margin-top: 220px;
+
     br {
         display: none;
     }
@@ -43,20 +42,20 @@
         background-repeat: no-repeat;
         width: 831px;
         height: 961px;
-        left: 0px;
+        left: -120px;
         z-index: -1;
     }
 }
 
 .header {
     .lamp {
+        position: absolute;
         background-image: url('../img/svg/lamp.svg');
         background-repeat: no-repeat;
         width: 139px;
         height: 468px;
-        position: absolute;
         top: -55px;
-        left: 1175px;
+        left: 1052px;;
         transition: 0.3s all;
         z-index: 1;
 
@@ -71,7 +70,7 @@
     .clock {
         position: absolute;
         top: 371px;
-        left: 1347px;
+        left: 1245px;
     }
 
     &_nav {
@@ -80,8 +79,9 @@
 
         &_logo {
             background-image: url('../img/svg/logo.svg');
-            width: 336px;
-            height: 121px;
+            background-repeat: no-repeat;
+            min-width: 336px;
+            min-height: 121px;
             transition: 0.3s ease-out;
             margin-top: 53px;
             margin-right: 211px;
@@ -134,7 +134,7 @@
             height: 324px;
             position: absolute;
             top: 525px;
-            left: 990px;
+            left: 820px;
             transition: 0.3s ease-out;
 
             &:hover {
@@ -258,17 +258,17 @@
 .provides {
     background-image: url('../img/svg/spotmini.svg');
     background-repeat: no-repeat;
-    background-position-x: 1300px;
+    background-position-x: 1259px;
     background-position-y: 20px;
-    margin-top: 62px;
+    // margin-top: 62px;
 
 }
 
 .provides-wrapper {
     margin-top: 211px;
     display: flex;
-    margin-left: 45px;
     position: relative;
+    flex-wrap: wrap-reverse;
 
     .provides-inner {
 
@@ -299,7 +299,7 @@
 
             &_2 {
                 margin-top: 24px;
-                width: 790px;
+                width: 796px;
                 display: flex;
                 align-items: flex-start;
             }
@@ -365,7 +365,7 @@
     }
 
     &_2 {
-        width: 700px;
+        width: 725px;
         margin-top: 20px;
         display: flex;
         align-items: center;
@@ -377,7 +377,7 @@
     }
 
     &_3 {
-        width: 700px;
+        width: 725xpx;
         margin-top: 20px;
         display: flex;
         align-items: center;
@@ -441,17 +441,20 @@
 }
 
 .footer {
-    min-width: 1500px;
-    background-color: #9D78FC;
+    margin-top: 120px;
+    background: #9D78FC;
+    width: 100%;
 
-    &_wrapper {
+    .footer_wrapper {
         height: 410px;
-        margin-top: 120px;
         width: 100%;
 
         .container {
             display: flex;
 
+            .footer_inner {
+                display: flex;
+            }
             .designer,
             .designer-gmail,
             .footer_contact_list_pp {
@@ -490,7 +493,7 @@
         }
     }
 
-    &_contact {
+    .footer_contact {
 
         &_title {
             color: #FFF;

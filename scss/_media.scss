@@ -1,110 +1,165 @@
-@media (max-width:1000px) {
-    .container {
-        width: 960px;
-        margin: 0 20px;
-        height: 100%;
+// @media (max-width:1000px) {
+//     .container {
+//         width: 960px;
+//         margin: 0 20px;
+//         height: 100%;
 
-        .header_nav_logo {
-            margin-right: 71px;
-            margin-top: 64px;
-        }
+//         .header_nav_logo {
+//             margin-right: 96px;
+//             margin-top: 64px;
+//         }
 
-        .header_nav_list ul li:not(:last-child) {
-            margin-right: 44px;
-        }
-    }
+//         .header_nav_list ul li:not(:last-child) {
+//             margin-right: 44px;
+//         }
+//     }
 
-    .hero-section .spot {
-        left: -226px;
-    }
+//     .hero-section .spot {
+//         left: -199px;
+//     }
 
-    .header-body_desc {
-        width: 793px;
-        height: 201px;
-        font-size: 53px;
-        margin-top: 192px;
+//     .header-body_desc {
+//         width: 793px;
+//         height: 201px;
+//         font-size: 53px;
+//         margin-top: 192px;
 
-        br {
-            display: initial;
-        }
-    }
+//         br {
+//             display: initial;
+//         }
+//     }
 
-    .header {
-        .lamp {
-            background-image: url('../img/adaptive/adaptive_1000px/lamp.svg');
-            width: 139px;
-            height: 463px;
-            left: 812px;
-            top: 0;
+//     .header {
+//         .lamp {
+//             background-image: url('../img/adaptive/adaptive_1000px/lamp.svg');
+//             width: 139px;
+//             height: 463px;
+//             left: 812px;
+//             top: 0;
 
-        }
+//         }
 
-        .clock {
-            display: none;
-        }
+//         .clock {
+//             display: none;
+//         }
 
-        .header-body {
-            .subtitle {
-                width: 487px;
-                height: 89px;
-                margin-top: 31px;
+//         .header-body {
+//             .subtitle {
+//                 width: 487px;
+//                 height: 89px;
+//                 margin-top: 31px;
 
-                .br-first {
-                    display: none;
-                }
+//                 .br-first {
+//                     display: none;
+//                 }
 
-                .br-secnd {
-                    display: initial;
-                }
-            }
+//                 .br-secnd {
+//                     display: initial;
+//                 }
+//             }
 
-            .women {
-                background-image: url('../img/adaptive/adaptive_1000px/women.svg');
-                width: 350px;
-                height: 232px;
-                left: 629px;
-            }
-        }
-    }
+//             .women {
+//                 background-image: url('../img/adaptive/adaptive_1000px/body_svg.svg');
+//                 background-repeat: no-repeat;
+//                 min-width: 100%;
+//                 min-height: 100%;
+//                 left: 493px;
+//                 top: 619px;
+//             }
+//         }
+//     }
 
-    .awards {
-        .container {
+//     .awards {
+//         .container {
 
-            .title {
-                margin-top: 115px;
-            }
-        }
+//             .title {
+//                 margin-top: 115px;
+//             }
+//         }
 
-    }
+//     }
 
-    .awards-wrapper {
+//     .awards-wrapper {
 
-        .awards-inner {
-            .awards-list {
-                margin-top: 91px;
-            }
+//         .awards-inner {
+//             .awards-list {
+//                 margin-top: 91px;
+//             }
 
-            .awards-img {
-                margin-top: 56px;
+//             .awards-img {
+//                 margin-top: 56px;
+//                 width: 100%;
+//                 justify-content: center;
 
-                &_1 {
-                    background-image: url('../img/adaptive/adaptive_1000px/california.svg');
-                    width: 229px;
-                    height: 254px;
-                    pointer-events: none;
-                    
-                }
+//                 &_1 {
+//                     background-image: url('../img/adaptive/adaptive_1000px/california.svg');
+//                     width: 229px;
+//                     height: 254px;
+//                     pointer-events: none;
+//                 }
 
-                &_2 {
-                    background-image: url('../img/adaptive/adaptive_1000px/fresno.svg');
-                    width: 254px;
-                    height: 254px;
-                    pointer-events: none;
-                }
-            }
-        }
-    }
+//                 &_2 {
+//                     background-image: url('../img/adaptive/adaptive_1000px/fresno.svg');
+//                     width: 254px;
+//                     height: 254px;
+//                     pointer-events: none;
+//                 }
+//             }
+//         }
+//     }
 
+//     .provides {
 
+//         max-width: 100%;
+//         min-height: 100%;
 
-}
+//         .provides-wrapper {
+//             margin-top: 246px;
+
+//             .provides-title {
+//                 margin-left: 163px;
+//             }
+
+//             .provides_photo {
+//                 margin-top: 65px;
+//             }
+//         }
+//     }
+
+//     .provides_continue .provides-wrapper_2 {
+//         flex-wrap: wrap;
+//     }
+
+    
+//     .programe-title {
+//         margin-top: 101px;
+//     }
+    
+//     .provides_enum_1 {
+//         margin-top: 70px;
+        
+//     }
+//     .provides_enum_2 {
+//         width: 894px;
+//     }
+//     .provides_enum_3 {
+//         width: 885px;
+//     }
+//     .provides_svg {
+//         margin-top: 84px;
+//     }
+//     .provides_img {
+//         display: flex;
+//         width: 100%;
+//         justify-content: right;
+
+//     }
+//     .price-wrapper .container .price-inner {
+//         margin-top: 155px;
+//     }
+//     .footer_wrapper {
+//         .container {
+//             width: 100%;
+//         }
+//     }
+// }
