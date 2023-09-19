@@ -412,7 +412,7 @@ body {
   margin-top: 20px;
 }
 .provides_enum_3:before {
-  content: url("/img/svg/green-square.svg");
+  content: url("..img/svg/green-square.svg");
 }
 
 .programe-title {
