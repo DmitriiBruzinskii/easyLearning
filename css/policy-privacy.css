@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+h1 {
+    font-size: 34px;
+}
+.content {
+    margin: 100px;
+}
+p {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:550px) {
+    .content {
+        margin: 20px;
+    }
+}

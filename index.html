@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy Learning</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,9 +23,11 @@
         <section class="hero-section">
             <div class="spot"></div>
             <div class="header_nav">
-                <div id="home" class="header_nav_logo logotype"></div>
+                <div id="home" class="header_nav_logo">
+                    <img id="logotype" src="img/svg/logo.svg" alt="logotype">
+                </div>
 
-                <nav class="header_nav_list">
+                <nav class="header_nav_list menu ">
                     <ul class="list">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#awards">About Us</a></li>
@@ -35,6 +36,10 @@
                     </ul>
                 </nav>
             </div>
+            <div class="header_burger">
+                <span></span>
+            </div>
+
 
             <div class="lamp"></div>
             <div class="header-body">
@@ -52,24 +57,21 @@
 
 
 
-        <section class="awards">
-            <div id="awards" class="null"></div>
+        <section id="awards" class="awards">
             <div class="title">
                 <span>My awards!</span>
             </div>
 
-            <div class="awards-wrapper">
-                <div class="awards-inner">
-                    <div class="awards-list">
-                        <div class="awards-list_1">Bachelor of Arts in Liberal Studies.</div>
-                        <div class="awards-list_2">Master of Arts in Education ( Fresno State University)</div>
-                        <div class="awards-list_3">The Multiple Subject techniques Credential.</div>
-                    </div>
+            <div class="awards-inner">
+                <div class="awards-list">
+                    <div class="awards-list_1">Bachelor of Arts in Liberal Studies.</div>
+                    <div class="awards-list_2">Master of Arts in Education ( Fresno State University)</div>
+                    <div class="awards-list_3">The Multiple Subject techniques Credential.</div>
+                </div>
 
-                    <div class="awards-img">
-                        <div class="awards-img_1"></div>
-                        <div class="awards-img_2"></div>
-                    </div>
+                <div class="awards-img">
+                    <div class="awards-img_1"></div>
+                    <div class="awards-img_2"></div>
                 </div>
             </div>
         </section>
@@ -78,7 +80,7 @@
             <div class="spot-mini"></div>
             <div class="provides-wrapper">
                 <div class="provides_photo">
-
+                    <img src="img/svg/womanbook.svg" alt="">
                 </div>
                 <div class="provides-inner">
                     <div class="provides-title">
@@ -97,43 +99,43 @@
 
         <section class="programe">
             <div id="Programe" class="programe-title"><span>Programe</span></div>
-            <div class="provides_continue">
-                <div class="provides-wrapper_2">
-                    <div class="provides_enum">
-                        <div class="provides_enum_1">Providing Academic support to
-                            Russian/English speaking students
-                        </div>
-                        <div class="provides_enum_2">Tutoring: Offer one-on-one or group tutoring sessions to assist
-                            students with specific subjects or topics they are struggling with.
-                            This can be done in person or online through video conferencing tools.
-                        </div>
-                        <div class="provides_enum_3">Language Support: Help students who are learning English as a
-                            second language by providing language support.
-                            This can include assisting with grammar, vocabulary, pronunciation, and conversation
-                            practice.
-                        </div>
+
+            <div class="provides-wrapper_2">
+                <div class="provides_enum">
+                    <div class="provides_enum_1">Providing Academic support to
+                        Russian/English speaking students
                     </div>
-                    <div class="provides-wrapper_svg"><div class="provides_svg"> </div></div>
+                    <div class="provides_enum_2">Tutoring: Offer one-on-one or group tutoring sessions to assist
+                        students with specific subjects or topics they are struggling with.
+                        This can be done in person or online through video conferencing tools.
+                    </div>
+                    <div class="provides_enum_3">Language Support: Help students who are learning English as a
+                        second language by providing language support.
+                        This can include assisting with grammar, vocabulary, pronunciation, and conversation
+                        practice.
+                    </div>
+                </div>
+                <div class="provides-wrapper_svg">
+                    <img src="img/svg/provides.svg" alt="image">
                 </div>
             </div>
+
         </section>
 
 
 
         <section class="price">
-            <div class="price-wrapper">
-                <div class="price-inner" id="price-inner">
-                    <div class="price-title" id="price">
-                        Price List
-                    </div>
+            <div class="price-inner" id="price-inner">
+                <div class="price-title" id="price">
+                    Price List
+                </div>
 
-                    <div class="price-imgs">
-                        <div class="price-img_1">
-                            <img src="img/svg/standart.svg" alt="#">
-                        </div>
-                        <div class="price-img_2">
-                            <img src="img/svg/premium.svg" alt="#">
-                        </div>
+                <div class="price-imgs">
+                    <div class="price-img_1">
+                        <img src="img/svg/standart.svg" alt="#">
+                    </div>
+                    <div class="price-img_2">
+                        <img src="img/svg/premium.svg" alt="#">
                     </div>
                 </div>
             </div>
@@ -149,9 +151,15 @@
                             <div class="logotype"></div>
                         </a>
 
-                        <p class="designer">Web Design by Stanislav Kulev</p>
-                        <p class="designer-gmail">stasikkulev@gmail.com</p>
-                        <p class="footer_contact_list_pp">Privacy policy</p>
+                        <div class="footer_information">
+                            <p class="designer">Web Design by Stanislav Kulev</p>
+                            <p class="designer-gmail"><a href="mailto:stasikkulev@gmail.com">stasikkulev@gmail.com</a>
+                            </p>
+                            <p class="footer_contact_list_pp"><a href="privacy-policy.html" target="_blank"
+                                    rel="noopener">
+                                    Privacy policy
+                                </a></p>
+                        </div>
 
                     </div>
                     <div class="footer_contact">
@@ -160,19 +168,63 @@
                         </div>
 
                         <div class="footer_contact_list">
-                            <div class="footer_contact_list_mail">@easylearningov@gmail.com</div>
-                            <div class="footer_contact_list_fb">@Olga Voznuk</div>
-                            <div class="footer_contact_list_inst">@olga.voznuk_10</div>
+                            <div class="footer_contact_list_mail"><a
+                                    href="mailto:easylearningov@gmail.com">@easylearningov@gmail.com</a></div>
+                            <div class="footer_contact_list_fb"><a href="https://www.facebook.com/olga.voznuk.756"
+                                    target="_blank" rel="noopener">@Olga Voznuk</a></div>
+                            <div class="footer_contact_list_inst"><a href="https://www.instagram.com/olga.voznuk_10/"
+                                    target="_blank" rel="noopener">@olga.voznuk_10</a></div>
                         </div>
                     </div>
                 </div>
+
+                <!-- footer-for-tablet -->
+
+                <div class="footer_inner-tablet">
+                    <div class="logo">
+                        <a href="#home">
+                            <div class="logotype"></div>
+                        </a>
+
+                    </div>
+                    <div class="footer_contact">
+                        <div class="footer_contact_title">
+                            Contact:
+                        </div>
+
+                        <div class="footer_contact_list">
+                            <div class="footer_contact_list_mail"><a
+                                    href="mailto:stasikkulev@gmail.com">stasikkulev@gmail.com</a></div>
+                            <div class="footer_contact_list_fb"><a href="https://www.facebook.com/olga.voznuk.756"
+                                    target="_blank" rel="noopener">@Olga Voznuk</a></div>
+                            <div class="footer_contact_list_inst"><a href="https://www.instagram.com/olga.voznuk_10/"
+                                    target="_blank" rel="noopener">@olga.voznuk_10</a></div>
+                        </div>
+
+                        <div class="footer_icons">
+                            <img src="img/svg/mail.svg" alt="icon-gmail">
+                            <img src="img/svg/fb.svg" alt="icon-fb">
+                            <img src="img/svg/inst.svg" alt="icon-inst">
+                        </div>
+                    </div>
+
+                    <div class="footer_information">
+                        <p class="designer">Web Design by Stanislav Kulev</p>
+                        <p class="designer-gmail"><a href="mailto:stasikkulev@gmail.com">stasikkulev@gmail.com</a></p>
+                        <p class="footer_contact_list_pp"><a href="privacy-policy.html" target="_blank"
+                                rel="noopener">Privacy policy</a></p>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 
 </html>
