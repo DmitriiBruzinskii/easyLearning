@@ -84,7 +84,7 @@ body {
 
 .lamp {
   position: absolute;
-  background-image: url("../img/svg/Lamp.svg");
+  background-image: url("../img/svg/lamp.svg");
   background-repeat: no-repeat;
   width: 139px;
   height: 468px;
